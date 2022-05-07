@@ -1,0 +1,31 @@
+{
+
+    "manifest_version": 2,
+    "name": "Productivity",
+    "version": "1.0",
+  
+    "description": "Occasionally, randomly, closes a currently open tab.",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "background": {
+        "scripts": [
+            "scripts/productivity.js"
+        ]
+    },
+
+    "permissions": [
+        "alarms",
+        "tabs"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/border-48.png",
+        "default_title": "Productivity",
+        "default_popup": "popup/kill_order.html"
+    }
+  
+  }
+  
