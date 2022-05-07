@@ -1,0 +1,3 @@
+This is a small FireFox extension to complete challenge #11 for Scav 2022. It closes a tab every minute, and enables a popup where a random tab can be closed. 
+
+To activate, download the files, then naviage to `about:debugging`. Select 'load temporary add-on', then navigate to where you saved the files and select `manifest.json`. It should be activated, and will close its first tab in 10 seconds. 

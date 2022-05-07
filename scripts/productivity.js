@@ -1,6 +1,6 @@
 const periodInMinutes = 1;    //Delay between firings. TODO: Make this modifyable
 const alarmName = 'Kill_Alarm'; //A constant name so that it stays consistent
-const delayMS = 1000*500;         //TODO: Maybe just have this start at 0, immedietly run
+const delayMS = 1000*10; //10s start delay
 
 console.log('Running a background script')
 
